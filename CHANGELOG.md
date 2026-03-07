@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.4] - 2026-03-08
+
+### Fixed
+
+- Updated `_meta.json` version field to match published version (was incorrectly showing 3.0.0)
+- Updated `CHANGELOG.md` to document 3.0.3 changes
+
 ## [3.0.3] - 2026-03-08
 
 ### Added
