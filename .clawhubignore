@@ -1,0 +1,19 @@
+# Git files (managed separately)
+.git/
+.gitignore
+.github/
+
+# Development files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Local config
+.env
+.env.local
+
+# Build artifacts
+dist/
+build/
+node_modules/
