@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.3] - 2026-03-08
+
+### Added
+
+- **`.clawhubignore` file**: Prevents ClawHub/Git conflicts by excluding Git-related files (`.git/`, `.gitignore`, `.github/`) from ClawHub's file comparison. This allows Git repository and ClawHub skill management to coexist without triggering "local changes" errors during updates.
+
 ## [3.0.0] - 2026-03-07
 
 ### ⚠️ Breaking Changes
