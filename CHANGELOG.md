@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.0] - 2026-03-08
+
+### Added
+
+- **AI DevOps Agent Security Pack**: Complete 12-file security architecture document package
+  - 7 design documents: overview, agent security architecture, confirmation system, permission guard, command audit, rate limiting, risk detection
+  - 2 examples: end-to-end DevOps workflow, OpenClaw integration config (YAML)
+  - 3 Python reference implementations: confirmation_service.py, permission_guard.py, audit_logger.py (all independently runnable)
+- **README bilingual rewrite**: English primary + Chinese secondary, professional formatting
+  - Added "5-Minute Quick Start" section
+  - Added architecture diagram (zero-knowledge code flow)
+  - Clarified two implementation paths: shell scripts (production) vs Python examples (reference)
+  - Added FAQ section
+  - Added Security Architecture Pack documentation
+
+### Improved
+
+- README now clearly distinguishes "production ready" (shell scripts) from "reference design" (Python examples)
+- Better trigger category documentation with concrete examples
+- Multi-agent setup instructions for teams with multiple bots
+
 ## [3.0.4] - 2026-03-08
 
 ### Fixed
